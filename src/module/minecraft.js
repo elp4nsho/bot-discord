@@ -50,7 +50,7 @@ var funciones = [
                     res = res.code;
                     bot.bot.sendMessage({
                         to: bot.channelID,
-                        message: res == "ECONNREFUSED" ? "DOWN" : "UP"
+                        message: res == "ECONNREFUSED" ? "DOWN" : "UPA"
                     });
                 });
         }
