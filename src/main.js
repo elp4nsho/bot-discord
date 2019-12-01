@@ -1,3 +1,22 @@
-bot = require("./handler/handler");
+bot = require("./handler/handler");  //Objeto bot
+/*
+█    ██       █▀▄▀█ ▄███▄   ██       ███   ████▄    ▄▄▄▄▀
+█    █ █      █ █ █ █▀   ▀  █ █      █  █  █   █ ▀▀▀ █
+█    █▄▄█     █ ▄ █ ██▄▄    █▄▄█     █ ▀ ▄ █   █     █
+███▄ █  █     █   █ █▄   ▄▀ █  █     █  ▄▀ ▀████    █
+    ▀   █        █  ▀███▀      █     ███           ▀
+       █        ▀             █                         oli
+      ▀                      ▀
+*
+*
+*
+*
+*
+*
+*
+*
+*
+*
+* */
 
-bot.start();
+bot.start();            //Inicializar objeto bot
