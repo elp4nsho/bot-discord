@@ -30,9 +30,14 @@ exports.start = function () {
     });
 
     //EVENTO DE CUANDO HAY UN MENSAJE EN EL CANAL (cualquiera)
-    bot.on('message', function (user, userID, channelID, message, evt) {
+    bot.on('message', function ( message) {
+
+
+
+
         console.log("Mensaje Recibido. ->"+message)
-        let botObject = {user,userID,channelID,message,evt,bot}; //objeto bot para su uso en modulos
+        //let botObject = {user,userID,channelID,message,evt,bot}; //objeto bot para su uso en modulos
+        let botObject = {message}; //objeto bot para su uso en modulos
         let comando; //variable que contendra el comando
         let argumentos; //variable que contendra los argumentos
         let auxMsg; //variable utilizada para realizar la separacion del mensaje completo (auxiliar)

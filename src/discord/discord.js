@@ -1,10 +1,11 @@
-var Discord = require('discord.io');
+const Discord = require('discord.js');
+
 var auth = require('../configuration/auth');
 
+
+var bota = new Discord.Client();
+bota.login(auth.token)
+
 exports.bot = function(){
-    var bot = new Discord.Client({
-        token: auth.token,
-        autorun: true
-     });
-     return bot
-}
+         return bota
+};

@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/elp4nsho/bot-discord#readme",
   "dependencies": {
-    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
-	"shelljs": "^0.8.3",
-	"axios": "^0.19.0"
+    "axios": "^0.19.0",
+    "discord.js": "^11.5.1",
+    "shelljs": "^0.8.3"
   }
 }
